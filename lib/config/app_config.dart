@@ -18,15 +18,14 @@ abstract class AppConfig {
   static const Color primaryColorLight = Color(0xFFCCBDEA);
   static const Color secondaryColor = Color(0xFF41a2bc);
   static String _privacyUrl =
-      'https://github.com/ZohaibBlockchain/fluffychat/blob/main/PRIVACY.md';
+      'https://github.com/ZohaibBlockchain/Chitchat/blob/main/PRIVACY.md';
   static String get privacyUrl => _privacyUrl;
   static const String enablePushTutorial =
       '';
   static const String encryptionTutorial =
       '';
   static const String startChatTutorial =
-      'https://github.com/krille-chan/fluffychat/wiki/How-to-Find-Users-in-FluffyChat';
-
+      '';
 
 
   static const String appId = 'com.p2pchatter.app';
@@ -34,13 +33,13 @@ abstract class AppConfig {
   static String _webBaseUrl = 'https://p2pchatter.com/web';
   static String get webBaseUrl => _webBaseUrl;
   static const String sourceCodeUrl =
-      'https://github.com/ZohaibBlockchain/fluffychat.git';
+      'https://github.com/ZohaibBlockchain/Chitchat.git';
   static const String supportUrl =
-      'https://github.com/ZohaibBlockchain/fluffychat/issues';
+      'https://github.com/ZohaibBlockchain/Chitchat/issues';
   static final Uri newIssueUrl = Uri(
     scheme: 'https',
     host: 'github.com',
-    path: '/krille-chan/fluffychat/issues/new',
+    path: '/ZohaibBlockchain/Chitchat/issues',
   );
   static bool renderHtml = true;
   static bool hideRedactedEvents = false;
